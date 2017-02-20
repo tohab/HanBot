@@ -1,15 +1,15 @@
 //
-//  HanbotTests.swift
-//  HanbotTests
+//  HanBotTests.swift
+//  HanBotTests
 //
-//  Created by Will Fox on 20/02/2017.
-//  Copyright © 2017 Will Fox. All rights reserved.
+//  Created by Rohan Prasad on 03/02/2017.
+//  Copyright (c) 2017 Rohan Prasad. All rights reserved.
 //
 
+import UIKit
 import XCTest
-@testable import Hanbot
 
-class HanbotTests: XCTestCase {
+class HanBotTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class HanbotTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        self.measure() {
             // Put the code you want to measure the time of here.
         }
     }

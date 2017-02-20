@@ -7,64 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37DE37021E5AFF3A00FF0909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE37011E5AFF3A00FF0909 /* AppDelegate.swift */; };
-		37DE37041E5AFF3A00FF0909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE37031E5AFF3A00FF0909 /* ViewController.swift */; };
-		37DE37071E5AFF3A00FF0909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DE37051E5AFF3A00FF0909 /* Main.storyboard */; };
-		37DE37091E5AFF3A00FF0909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DE37081E5AFF3A00FF0909 /* Assets.xcassets */; };
-		37DE370C1E5AFF3A00FF0909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DE370A1E5AFF3A00FF0909 /* LaunchScreen.storyboard */; };
-		37DE37171E5AFF3A00FF0909 /* HanbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE37161E5AFF3A00FF0909 /* HanbotTests.swift */; };
-		37DE37221E5AFF3A00FF0909 /* HanbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DE37211E5AFF3A00FF0909 /* HanbotUITests.swift */; };
+		58803AD91E447CFA0046A571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58803AD81E447CFA0046A571 /* AppDelegate.swift */; };
+		58803ADB1E447CFA0046A571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58803ADA1E447CFA0046A571 /* ViewController.swift */; };
+		58803ADE1E447CFA0046A571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58803ADC1E447CFA0046A571 /* Main.storyboard */; };
+		58803AE01E447CFA0046A571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58803ADF1E447CFA0046A571 /* Images.xcassets */; };
+		58803AE31E447CFB0046A571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58803AE11E447CFB0046A571 /* LaunchScreen.xib */; };
+		58803AEF1E447CFB0046A571 /* HanBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58803AEE1E447CFB0046A571 /* HanBotTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37DE37131E5AFF3A00FF0909 /* PBXContainerItemProxy */ = {
+		58803AE91E447CFB0046A571 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 37DE36F61E5AFF3900FF0909 /* Project object */;
+			containerPortal = 58803ACB1E447CFA0046A571 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37DE36FD1E5AFF3A00FF0909;
-			remoteInfo = Hanbot;
-		};
-		37DE371E1E5AFF3A00FF0909 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37DE36F61E5AFF3900FF0909 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37DE36FD1E5AFF3A00FF0909;
-			remoteInfo = Hanbot;
+			remoteGlobalIDString = 58803AD21E447CFA0046A571;
+			remoteInfo = HanBot;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37DE36FE1E5AFF3A00FF0909 /* Hanbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37DE37011E5AFF3A00FF0909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37DE37031E5AFF3A00FF0909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37DE37061E5AFF3A00FF0909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37DE37081E5AFF3A00FF0909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37DE370B1E5AFF3A00FF0909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37DE370D1E5AFF3A00FF0909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37DE37121E5AFF3A00FF0909 /* HanbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37DE37161E5AFF3A00FF0909 /* HanbotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbotTests.swift; sourceTree = "<group>"; };
-		37DE37181E5AFF3A00FF0909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37DE371D1E5AFF3A00FF0909 /* HanbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanbotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37DE37211E5AFF3A00FF0909 /* HanbotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbotUITests.swift; sourceTree = "<group>"; };
-		37DE37231E5AFF3A00FF0909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58803AD31E447CFA0046A571 /* HanBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58803AD71E447CFA0046A571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58803AD81E447CFA0046A571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58803ADA1E447CFA0046A571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58803ADD1E447CFA0046A571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58803ADF1E447CFA0046A571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58803AE21E447CFB0046A571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		58803AE81E447CFB0046A571 /* HanBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58803AED1E447CFB0046A571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58803AEE1E447CFB0046A571 /* HanBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanBotTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37DE36FB1E5AFF3A00FF0909 /* Frameworks */ = {
+		58803AD01E447CFA0046A571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DE370F1E5AFF3A00FF0909 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37DE371A1E5AFF3A00FF0909 /* Frameworks */ = {
+		58803AE51E447CFB0046A571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,143 +56,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37DE36F51E5AFF3900FF0909 = {
+		58803ACA1E447CFA0046A571 = {
 			isa = PBXGroup;
 			children = (
-				37DE37001E5AFF3A00FF0909 /* Hanbot */,
-				37DE37151E5AFF3A00FF0909 /* HanbotTests */,
-				37DE37201E5AFF3A00FF0909 /* HanbotUITests */,
-				37DE36FF1E5AFF3A00FF0909 /* Products */,
+				58803AD51E447CFA0046A571 /* HanBot */,
+				58803AEB1E447CFB0046A571 /* HanBotTests */,
+				58803AD41E447CFA0046A571 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		37DE36FF1E5AFF3A00FF0909 /* Products */ = {
+		58803AD41E447CFA0046A571 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37DE36FE1E5AFF3A00FF0909 /* Hanbot.app */,
-				37DE37121E5AFF3A00FF0909 /* HanbotTests.xctest */,
-				37DE371D1E5AFF3A00FF0909 /* HanbotUITests.xctest */,
+				58803AD31E447CFA0046A571 /* HanBot.app */,
+				58803AE81E447CFB0046A571 /* HanBotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37DE37001E5AFF3A00FF0909 /* Hanbot */ = {
+		58803AD51E447CFA0046A571 /* HanBot */ = {
 			isa = PBXGroup;
 			children = (
-				37DE37011E5AFF3A00FF0909 /* AppDelegate.swift */,
-				37DE37031E5AFF3A00FF0909 /* ViewController.swift */,
-				37DE37051E5AFF3A00FF0909 /* Main.storyboard */,
-				37DE37081E5AFF3A00FF0909 /* Assets.xcassets */,
-				37DE370A1E5AFF3A00FF0909 /* LaunchScreen.storyboard */,
-				37DE370D1E5AFF3A00FF0909 /* Info.plist */,
+				58803AD81E447CFA0046A571 /* AppDelegate.swift */,
+				58803ADA1E447CFA0046A571 /* ViewController.swift */,
+				58803ADC1E447CFA0046A571 /* Main.storyboard */,
+				58803ADF1E447CFA0046A571 /* Images.xcassets */,
+				58803AE11E447CFB0046A571 /* LaunchScreen.xib */,
+				58803AD61E447CFA0046A571 /* Supporting Files */,
 			);
-			path = Hanbot;
+			path = HanBot;
 			sourceTree = "<group>";
 		};
-		37DE37151E5AFF3A00FF0909 /* HanbotTests */ = {
+		58803AD61E447CFA0046A571 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				37DE37161E5AFF3A00FF0909 /* HanbotTests.swift */,
-				37DE37181E5AFF3A00FF0909 /* Info.plist */,
+				58803AD71E447CFA0046A571 /* Info.plist */,
 			);
-			path = HanbotTests;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		37DE37201E5AFF3A00FF0909 /* HanbotUITests */ = {
+		58803AEB1E447CFB0046A571 /* HanBotTests */ = {
 			isa = PBXGroup;
 			children = (
-				37DE37211E5AFF3A00FF0909 /* HanbotUITests.swift */,
-				37DE37231E5AFF3A00FF0909 /* Info.plist */,
+				58803AEE1E447CFB0046A571 /* HanBotTests.swift */,
+				58803AEC1E447CFB0046A571 /* Supporting Files */,
 			);
-			path = HanbotUITests;
+			path = HanBotTests;
+			sourceTree = "<group>";
+		};
+		58803AEC1E447CFB0046A571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58803AED1E447CFB0046A571 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37DE36FD1E5AFF3A00FF0909 /* Hanbot */ = {
+		58803AD21E447CFA0046A571 /* HanBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37DE37261E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "Hanbot" */;
+			buildConfigurationList = 58803AF21E447CFB0046A571 /* Build configuration list for PBXNativeTarget "HanBot" */;
 			buildPhases = (
-				37DE36FA1E5AFF3A00FF0909 /* Sources */,
-				37DE36FB1E5AFF3A00FF0909 /* Frameworks */,
-				37DE36FC1E5AFF3A00FF0909 /* Resources */,
+				58803ACF1E447CFA0046A571 /* Sources */,
+				58803AD01E447CFA0046A571 /* Frameworks */,
+				58803AD11E447CFA0046A571 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hanbot;
-			productName = Hanbot;
-			productReference = 37DE36FE1E5AFF3A00FF0909 /* Hanbot.app */;
+			name = HanBot;
+			productName = HanBot;
+			productReference = 58803AD31E447CFA0046A571 /* HanBot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37DE37111E5AFF3A00FF0909 /* HanbotTests */ = {
+		58803AE71E447CFB0046A571 /* HanBotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37DE37291E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "HanbotTests" */;
+			buildConfigurationList = 58803AF51E447CFB0046A571 /* Build configuration list for PBXNativeTarget "HanBotTests" */;
 			buildPhases = (
-				37DE370E1E5AFF3A00FF0909 /* Sources */,
-				37DE370F1E5AFF3A00FF0909 /* Frameworks */,
-				37DE37101E5AFF3A00FF0909 /* Resources */,
+				58803AE41E447CFB0046A571 /* Sources */,
+				58803AE51E447CFB0046A571 /* Frameworks */,
+				58803AE61E447CFB0046A571 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37DE37141E5AFF3A00FF0909 /* PBXTargetDependency */,
+				58803AEA1E447CFB0046A571 /* PBXTargetDependency */,
 			);
-			name = HanbotTests;
-			productName = HanbotTests;
-			productReference = 37DE37121E5AFF3A00FF0909 /* HanbotTests.xctest */;
+			name = HanBotTests;
+			productName = HanBotTests;
+			productReference = 58803AE81E447CFB0046A571 /* HanBotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		37DE371C1E5AFF3A00FF0909 /* HanbotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37DE372C1E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "HanbotUITests" */;
-			buildPhases = (
-				37DE37191E5AFF3A00FF0909 /* Sources */,
-				37DE371A1E5AFF3A00FF0909 /* Frameworks */,
-				37DE371B1E5AFF3A00FF0909 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37DE371F1E5AFF3A00FF0909 /* PBXTargetDependency */,
-			);
-			name = HanbotUITests;
-			productName = HanbotUITests;
-			productReference = 37DE371D1E5AFF3A00FF0909 /* HanbotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		37DE36F61E5AFF3900FF0909 /* Project object */ = {
+		58803ACB1E447CFA0046A571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Will Fox";
+				ORGANIZATIONNAME = "Rohan Prasad";
 				TargetAttributes = {
-					37DE36FD1E5AFF3A00FF0909 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R5TUTUK9AQ;
-						ProvisioningStyle = Automatic;
+					58803AD21E447CFA0046A571 = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 					};
-					37DE37111E5AFF3A00FF0909 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R5TUTUK9AQ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 37DE36FD1E5AFF3A00FF0909;
-					};
-					37DE371C1E5AFF3A00FF0909 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R5TUTUK9AQ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 37DE36FD1E5AFF3A00FF0909;
+					58803AE71E447CFB0046A571 = {
+						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
+						TestTargetID = 58803AD21E447CFA0046A571;
 					};
 				};
 			};
-			buildConfigurationList = 37DE36F91E5AFF3A00FF0909 /* Build configuration list for PBXProject "Hanbot" */;
+			buildConfigurationList = 58803ACE1E447CFA0046A571 /* Build configuration list for PBXProject "HanBot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +178,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 37DE36F51E5AFF3900FF0909;
-			productRefGroup = 37DE36FF1E5AFF3A00FF0909 /* Products */;
+			mainGroup = 58803ACA1E447CFA0046A571;
+			productRefGroup = 58803AD41E447CFA0046A571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37DE36FD1E5AFF3A00FF0909 /* Hanbot */,
-				37DE37111E5AFF3A00FF0909 /* HanbotTests */,
-				37DE371C1E5AFF3A00FF0909 /* HanbotUITests */,
+				58803AD21E447CFA0046A571 /* HanBot */,
+				58803AE71E447CFB0046A571 /* HanBotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37DE36FC1E5AFF3A00FF0909 /* Resources */ = {
+		58803AD11E447CFA0046A571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DE370C1E5AFF3A00FF0909 /* LaunchScreen.storyboard in Resources */,
-				37DE37091E5AFF3A00FF0909 /* Assets.xcassets in Resources */,
-				37DE37071E5AFF3A00FF0909 /* Main.storyboard in Resources */,
+				58803ADE1E447CFA0046A571 /* Main.storyboard in Resources */,
+				58803AE31E447CFB0046A571 /* LaunchScreen.xib in Resources */,
+				58803AE01E447CFA0046A571 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DE37101E5AFF3A00FF0909 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37DE371B1E5AFF3A00FF0909 /* Resources */ = {
+		58803AE61E447CFB0046A571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,71 +210,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37DE36FA1E5AFF3A00FF0909 /* Sources */ = {
+		58803ACF1E447CFA0046A571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DE37041E5AFF3A00FF0909 /* ViewController.swift in Sources */,
-				37DE37021E5AFF3A00FF0909 /* AppDelegate.swift in Sources */,
+				58803ADB1E447CFA0046A571 /* ViewController.swift in Sources */,
+				58803AD91E447CFA0046A571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DE370E1E5AFF3A00FF0909 /* Sources */ = {
+		58803AE41E447CFB0046A571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DE37171E5AFF3A00FF0909 /* HanbotTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37DE37191E5AFF3A00FF0909 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DE37221E5AFF3A00FF0909 /* HanbotUITests.swift in Sources */,
+				58803AEF1E447CFB0046A571 /* HanBotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37DE37141E5AFF3A00FF0909 /* PBXTargetDependency */ = {
+		58803AEA1E447CFB0046A571 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37DE36FD1E5AFF3A00FF0909 /* Hanbot */;
-			targetProxy = 37DE37131E5AFF3A00FF0909 /* PBXContainerItemProxy */;
-		};
-		37DE371F1E5AFF3A00FF0909 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37DE36FD1E5AFF3A00FF0909 /* Hanbot */;
-			targetProxy = 37DE371E1E5AFF3A00FF0909 /* PBXContainerItemProxy */;
+			target = 58803AD21E447CFA0046A571 /* HanBot */;
+			targetProxy = 58803AE91E447CFB0046A571 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37DE37051E5AFF3A00FF0909 /* Main.storyboard */ = {
+		58803ADC1E447CFA0046A571 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				37DE37061E5AFF3A00FF0909 /* Base */,
+				58803ADD1E447CFA0046A571 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		37DE370A1E5AFF3A00FF0909 /* LaunchScreen.storyboard */ = {
+		58803AE11E447CFB0046A571 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				37DE370B1E5AFF3A00FF0909 /* Base */,
+				58803AE21E447CFB0046A571 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		37DE37241E5AFF3A00FF0909 /* Debug */ = {
+		58803AF01E447CFB0046A571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -330,7 +268,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -341,7 +278,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -352,27 +288,26 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		37DE37251E5AFF3A00FF0909 /* Release */ = {
+		58803AF11E447CFB0046A571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,7 +315,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -391,7 +325,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -402,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,127 +344,99 @@
 			};
 			name = Release;
 		};
-		37DE37271E5AFF3A00FF0909 /* Debug */ = {
+		58803AF31E447CFB0046A571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = Hanbot/Info.plist;
+				INFOPLIST_FILE = HanBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.Hanbot;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		37DE37281E5AFF3A00FF0909 /* Release */ = {
+		58803AF41E447CFB0046A571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = Hanbot/Info.plist;
+				INFOPLIST_FILE = HanBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.Hanbot;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		37DE372A1E5AFF3A00FF0909 /* Debug */ = {
+		58803AF61E447CFB0046A571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = HanbotTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HanBotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.HanbotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanbot.app/Hanbot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanBot.app/HanBot";
 			};
 			name = Debug;
 		};
-		37DE372B1E5AFF3A00FF0909 /* Release */ = {
+		58803AF71E447CFB0046A571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = HanbotTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HanBotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.HanbotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanbot.app/Hanbot";
-			};
-			name = Release;
-		};
-		37DE372D1E5AFF3A00FF0909 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = HanbotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.HanbotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Hanbot;
-			};
-			name = Debug;
-		};
-		37DE372E1E5AFF3A00FF0909 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = R5TUTUK9AQ;
-				INFOPLIST_FILE = HanbotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = foxCompany.HanbotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Hanbot;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanBot.app/HanBot";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37DE36F91E5AFF3A00FF0909 /* Build configuration list for PBXProject "Hanbot" */ = {
+		58803ACE1E447CFA0046A571 /* Build configuration list for PBXProject "HanBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37DE37241E5AFF3A00FF0909 /* Debug */,
-				37DE37251E5AFF3A00FF0909 /* Release */,
+				58803AF01E447CFB0046A571 /* Debug */,
+				58803AF11E447CFB0046A571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37DE37261E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "Hanbot" */ = {
+		58803AF21E447CFB0046A571 /* Build configuration list for PBXNativeTarget "HanBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37DE37271E5AFF3A00FF0909 /* Debug */,
-				37DE37281E5AFF3A00FF0909 /* Release */,
+				58803AF31E447CFB0046A571 /* Debug */,
+				58803AF41E447CFB0046A571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		37DE37291E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "HanbotTests" */ = {
+		58803AF51E447CFB0046A571 /* Build configuration list for PBXNativeTarget "HanBotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37DE372A1E5AFF3A00FF0909 /* Debug */,
-				37DE372B1E5AFF3A00FF0909 /* Release */,
+				58803AF61E447CFB0046A571 /* Debug */,
+				58803AF71E447CFB0046A571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		37DE372C1E5AFF3A00FF0909 /* Build configuration list for PBXNativeTarget "HanbotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37DE372D1E5AFF3A00FF0909 /* Debug */,
-				37DE372E1E5AFF3A00FF0909 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 37DE36F61E5AFF3900FF0909 /* Project object */;
+	rootObject = 58803ACB1E447CFA0046A571 /* Project object */;
 }
