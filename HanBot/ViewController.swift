@@ -1,4 +1,3 @@
-// shaurya
 //  ViewController.swift
 //  HanBot
 //
