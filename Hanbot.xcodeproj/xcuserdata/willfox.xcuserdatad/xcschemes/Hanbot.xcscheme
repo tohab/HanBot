@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58803AD21E447CFA0046A571"
-               BuildableName = "HanBot.app"
-               BlueprintName = "HanBot"
-               ReferencedContainer = "container:HanBot.xcodeproj">
+               BlueprintIdentifier = "37DE36FD1E5AFF3A00FF0909"
+               BuildableName = "Hanbot.app"
+               BlueprintName = "Hanbot"
+               ReferencedContainer = "container:Hanbot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58803AE71E447CFB0046A571"
-               BuildableName = "HanBotTests.xctest"
-               BlueprintName = "HanBotTests"
-               ReferencedContainer = "container:HanBot.xcodeproj">
+               BlueprintIdentifier = "37DE37111E5AFF3A00FF0909"
+               BuildableName = "HanbotTests.xctest"
+               BlueprintName = "HanbotTests"
+               ReferencedContainer = "container:Hanbot.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "37DE371C1E5AFF3A00FF0909"
+               BuildableName = "HanbotUITests.xctest"
+               BlueprintName = "HanbotUITests"
+               ReferencedContainer = "container:Hanbot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "58803AD21E447CFA0046A571"
-            BuildableName = "HanBot.app"
-            BlueprintName = "HanBot"
-            ReferencedContainer = "container:HanBot.xcodeproj">
+            BlueprintIdentifier = "37DE36FD1E5AFF3A00FF0909"
+            BuildableName = "Hanbot.app"
+            BlueprintName = "Hanbot"
+            ReferencedContainer = "container:Hanbot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "58803AD21E447CFA0046A571"
-            BuildableName = "HanBot.app"
-            BlueprintName = "HanBot"
-            ReferencedContainer = "container:HanBot.xcodeproj">
+            BlueprintIdentifier = "37DE36FD1E5AFF3A00FF0909"
+            BuildableName = "Hanbot.app"
+            BlueprintName = "Hanbot"
+            ReferencedContainer = "container:Hanbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "58803AD21E447CFA0046A571"
-            BuildableName = "HanBot.app"
-            BlueprintName = "HanBot"
-            ReferencedContainer = "container:HanBot.xcodeproj">
+            BlueprintIdentifier = "37DE36FD1E5AFF3A00FF0909"
+            BuildableName = "Hanbot.app"
+            BlueprintName = "Hanbot"
+            ReferencedContainer = "container:Hanbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

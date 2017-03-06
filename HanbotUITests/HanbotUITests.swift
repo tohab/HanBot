@@ -1,14 +1,14 @@
 //
-//  HanBotUITests.swift
-//  HanBotUITests
+//  HanbotUITests.swift
+//  HanbotUITests
 //
-//  Created by Will Fox on 03/02/2017.
+//  Created by Will Fox on 20/02/2017.
 //  Copyright © 2017 Will Fox. All rights reserved.
 //
 
 import XCTest
 
-class HanBotUITests: XCTestCase {
+class HanbotUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
